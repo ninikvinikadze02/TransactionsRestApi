@@ -23,6 +23,10 @@
 You can access the Swagger UI for testing the endpoints by visiting:
 http://localhost:8000/swagger/
 
+### After downloading the csv file from kaggle(can't put on github due to the size) and putting it in the data/ folder
+### Run database migrations:
+python manage.py migrate
+
 ### Run the development server
 python manage.py runserver
 
